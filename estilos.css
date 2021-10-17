@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+   
+
+/*Banner de Anuncios*/
+
+.header-anuncios{
+
+    background-color: #aaf1f3;
+    height: 7vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-anuncios li{
+    padding: 1.10rem;
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+/*---------------- GRID---------*/
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "header-anuncios header-anuncios header-anuncios" 
+    "header header header"
+    "section-1 section-1 section-1" 
+    "section-2 section-2 section-2"
+    "section-3 section-3 section-3"
+    "footer footer footer";
+}
+
+.header-anuncios{
+    grid-area: header-anuncios;
+}
+
+header{
+    grid-area: header;
+}
+
+#section-1{
+    grid-area: section-1;
+}
+
+#section-2{
+    grid-area: section-2;
+}
+
+#section-3{
+    grid-area: section-3;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+/*---------------- HEADER---------*/
+header{
+ display: flex;
+ align-items: center;
+ padding: 0.50rem;
+ background-color: aliceblue;
+}
+
+/* ------LOGO--------*/
+
+.logo-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 2 rem;
+    background-color: aliceblue;
+    flex-wrap: nowrap;
+
+}
+
+.logo-flex div{
+    background-color: #494a4b;
+    align-items: flex-start;
+    flex-direction:row;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+/* Menu list style*/
+
+
+.header-banner--menu{
+    padding: 3rem; 
+    display: flex;
+     
+    
+}
+
+.header-banner--menu li{
+    list-style: none;
+    display:flex;
+    align-items: flex-end;
+
+    
+    
+
+}
+
+.header-banner--menu li{
+    display: inline-block;
+    
+
+}
+.header-banner--menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: rgb(158, 168, 166);
+    padding:1rem;
+    background-color: #a6dbdd;
+    font-weight: bold;
+  
+
+}
+
+
+
+/*Carrousel de imagenes dinamico*/
+
+.carrousel{
+    border: rgb(29, 228, 185) solid;
+    background-image: url("img/presoterapia.jpg");
+    background-color: rgb(192, 248, 248);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 0.5rem;
+    padding: 30rem;
+    margin: 1rem;
+}
+    
+main{
+}
+
+/*Titulos y Desripcion tratamientos*/
+
+
+
+.titulos{
+    text-transform: uppercase;
+    text-align: left;
+    list-style: none;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color: #494a4b;
+    background-color: rgb(166, 209, 219);
+    
+    
+}   
+.descripcion{
+    text-align:justify;
+    list-style: none;
+    padding: 00.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    line-height: 1.5rem;
+    
+}
+
+/* --------------CARDS---------- */
+
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+
+}
+    
+
+
+
+.container-button button{
+    padding: 0.50rem;
+    margin: 3rem;
+    border: gray solid;
+    border-radius: 1rem;
+    background-color: #17d89e;
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+/* -------------------- FOOTER--------------*/
+
+
+footer{
+    background-color: #a6dbdd
+           
+}
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+
+.container-seguinos, .container-ubicacion, .container-contacto{
+    font-family: 'Ubuntu', sans-seri;
+    font-size: medium;
+    padding: 2rem;
+    display: inline-block;
+    
+  
+}
+
+.container-iconos-redes a, .container-iconos-ubicacion a,.container-iconos-contacto a{
+    color: gray;
+    
+   
+}
+
+
+.container-seguinos li, .container-ubicacion li, .container-contacto li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 0.50rem;
+    text-decoration: none;
+    font-size:larger;  
+
+ }
+
+
+.contacto li{
+list-style: none;
+display: inline-block;
+padding: 2rem;
+color: gray;
+
+}
+h6{
+font-family: 'Ubuntu', sans-serif;
+font-size: medium;
+color: gray;
+padding: 2rem;
+display:inline-table;
+
+}
+
+
+
+
+
+
+
