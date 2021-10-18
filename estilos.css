@@ -134,6 +134,18 @@ header{
 }
 
 
+/*Estilos Buscador*/ 
+
+.buscador{
+    background-color: #a6dbdd;
+    padding: 0.80rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.20rem;
+    color: rgb(158, 168, 166);
+
+}
+
+
 
 /*Carrousel de imagenes dinamico*/
 
