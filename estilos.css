@@ -184,10 +184,13 @@ main{
     text-align:justify;
     list-style: none;
     padding: 00.50rem;
+    margin: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
+    font-size: large;
     width: 70%;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    color: #494a4b;
     
 }
 
