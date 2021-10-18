@@ -218,6 +218,11 @@ main{
     
 }
 
+.container-image-card{
+    background-color: #aaf1f3;
+    border: solid;
+    color: #aaf1f3;
+}
 /*---------------- Estilos y transformaciones botones---------------*/
 
 button{
