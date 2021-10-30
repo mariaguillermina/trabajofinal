@@ -257,19 +257,25 @@ button:hover{
 
 footer{
     background-color: #a6dbdd
+    
+    
+    
            
 }
 
+.container-fluid{
+    margin: 2rem;
+}
 
-.container-footer{
+.container-fluid-footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     
+    
 }
 
 .container-home{
-    display: flex;
     justify-content: initial;
     flex-direction: column;
 }
