@@ -1,0 +1,60 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
+    background-color: rgb(187, 231, 217);
+    padding: 3rem;
+    margin: 3rem;
+    font-family: sans-serif;
+    color: rgb(109, 106, 106);
+}
+
+
+.header-banner{
+    display: flex;
+    justify-content: center;
+    size: 10rem;
+    background-image:url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    width: 40rem;
+    padding: 10rem;
+    margin: 1rem;
+}
+
+
+fieldset{
+    border: solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    background-color: rgb(214, 212, 212);
+}
+
+.submit, .reset, .button{
+    border-radius: 0.50rem;
+    font-size: medium;
+    font-weight:bold
+    color: rgb(85, 85, 85);
+    background-color: lightseagreen;
+    padding: 0.50rem;
+    margin: 0.50rem;
+
+}
+
+.name, .apellido, .edad, .email, .phone{
+    padding: 0.50rem;
+    margin: 0.80rem;
+    width: 30rem;
+}
+
+textarea{
+    padding: 2rem;
+    margin: 2rem;
+    height: 10rem;
+    width: 60rem;
+}

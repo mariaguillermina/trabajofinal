@@ -3,11 +3,13 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body{
+body{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(45deg, #75a795 0%, #85f5df 100%);
+    
 }
    
+
 
 /*Banner de Anuncios*/
 
@@ -97,69 +99,56 @@ header{
 /* Menu list style*/
 
 
-.header-banner--menu{
+.navbar{
     padding: 3rem; 
     display: flex;
-     
-    
-}
-
-.header-banner--menu li{
+    display: inline-block;
     list-style: none;
     display:flex;
     align-items: flex-end;
-
+    color: gray;
+    margin: 0,50rem;
     
-    
-
 }
 
-.header-banner--menu li{
-    display: inline-block;
-    
 
-}
-.header-banner--menu a{
+.nav-link{
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    color: gray;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     color: rgb(158, 168, 166);
-    padding:1rem;
+    padding: 1rem;
     background-color: #a6dbdd;
     font-weight: bold;
+    margin: 0.50rem;
   
 
 }
 
 
-/*Estilos Buscador*/ 
-
-.buscador{
-    background-color: #a6dbdd;
-    padding: 0.80rem;
+.dropdown-menu a{
+    padding: 0rem;
+    margin: 0.50rem;
+    color: gray;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.20rem;
-    color: rgb(158, 168, 166);
 
 }
-
 
 
 /*Carrousel de imagenes dinamico*/
 
-.carrousel{
-    border: rgb(29, 228, 185) solid;
-    background-image: url("img/presoterapia.jpg");
-    background-color: rgb(192, 248, 248);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 0.5rem;
-    padding: 30rem;
+.carousel-item{
+    height: 30rem;
+    width: 20rem;
     margin: 1rem;
+    justify-content: center;
+
 }
+
+
     
 main{
 }
@@ -177,7 +166,7 @@ main{
     font-style: normal;
     color: #494a4b;
     background-color: rgb(166, 209, 219);
-    
+    margin: 2rem;
     
 }   
 .descripcion{
@@ -196,9 +185,15 @@ main{
 
 /* --------------CARDS---------- */
 
+.card{
+    background-color:#b6f5e8;
+}
+
+
 .container-cards{
     display: flex;
     justify-content: space-around;
+   
 
 }
     
@@ -208,7 +203,7 @@ main{
 .container-button button{
     padding: 1rem;
     margin: 0.50rem;
-    width: 20rem;
+    width: 15rem;
     border: rgb(185, 184, 184) solid;
     border-radius: 1.5rem;
     background-color: #ccfaec;
@@ -228,7 +223,10 @@ main{
     background-color: #aaf1f3;
     border: solid;
     color: #aaf1f3;
+
 }
+
+
 /*---------------- Estilos y transformaciones botones---------------*/
 
 button{
@@ -237,8 +235,9 @@ button{
 
 }
 
-button:hover, button:focus{
+button:hover, button:focus,.btn{
     color: #027250;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -246,8 +245,9 @@ button:hover{
     transform: scale(1.1);
 }
 
-.header-banner-menu a:hover{
-    color:#027250 ;
+.nav-item a a:hover{
+    cursor: pointer;
+    color:#027250;
 }
 
 
@@ -265,6 +265,12 @@ footer{
     justify-content: space-around;
     flex-direction: row;
     
+}
+
+.container-home{
+    display: flex;
+    justify-content: initial;
+    flex-direction: column;
 }
 
 
@@ -288,32 +294,65 @@ footer{
 
     list-style: none;
     display: inline-block;
+    font-family: 'Ubuntu', sans-seri;
+    font-size: medium;
     padding: 0.50rem;
     text-decoration: none;
-    font-size:larger;  
+    font-size:larger; 
+    color: gray; 
 
  }
 
+.container-home li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-seri;
+    font-size: large; 
+    display: inline-block;
+    flex-direction: column;
+    padding: 1rem;
+    color: gray;
+}
 
-.contacto li{
+.container-home a{
 list-style: none;
+text-decoration: none;
+font-family: 'Ubuntu', sans-seri;
+font-size: large; 
+font-size: large; 
 display: inline-block;
-padding: 2rem;
-color: gray;
+flex-direction: column;
+padding: 1rem;
+color: gray;  
 
 }
+
+
+
+
+.contacto{
+list-style: none;
+text-decoration: none;
+display: inline-block;
+flex-direction: column;
+padding: 2rem;
+color: gray;
+}
+
+
 h6{
 font-family: 'Ubuntu', sans-serif;
 font-size: medium;
 color: gray;
 padding: 2rem;
 display:inline-table;
+flex-direction: column;
 
 }
 
 
 
-/*---------- Gradient----------*/
+
 
 
 
