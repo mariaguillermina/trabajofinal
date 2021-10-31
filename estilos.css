@@ -223,7 +223,7 @@ main{
 }
 
 .container-button{
-    justify-content: center;
+    align-self: center;
 }
 
 .container-image-card{
