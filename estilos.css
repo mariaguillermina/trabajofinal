@@ -7,6 +7,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(45deg, #75a795 0%, #85f5df 100%);
     
+    
 }
    
 
@@ -58,6 +59,7 @@ header{
 
 #section-3{
     grid-area: section-3;
+    padding-bottom: 1rem;
 }
 
 footer{
@@ -259,19 +261,17 @@ footer{
     background-color: #a6dbdd
     
     
-    
+       
            
 }
 
 
-    
-}
 
 .container-fluid-footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding-top: 2rem;
+
     
 }
 
