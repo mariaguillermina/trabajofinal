@@ -210,6 +210,7 @@ main{
     border-radius: 1.5rem;
     background-color: #ccfaec;
     color: gray;
+    align-items: center;
     text-align:center;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
@@ -219,6 +220,10 @@ main{
     flex-direction: column;
     
     
+}
+
+.container-button{
+    justify-content: center;
 }
 
 .container-image-card{
