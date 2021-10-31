@@ -201,8 +201,8 @@ main{
 
 
 .container-button button{
-    padding: 0.50rem;
-    margin: 0.50rem;
+    padding: 1rem;
+    margin: 1rem;
     width: 15rem;
     border: rgb(185, 184, 184) solid;
     border-radius: 1.5rem;
@@ -263,15 +263,15 @@ footer{
            
 }
 
-.container-fluid{
-    margin: 2rem;
+
+    
 }
 
 .container-fluid-footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    
+    padding-top: 2rem;
     
 }
 
