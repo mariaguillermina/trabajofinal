@@ -358,10 +358,44 @@ flex-direction: column;
 
 
 
+/* ---------------------------------------------------RESPONSIVE ----------------------------------------------------------------*/
 
+/*MOBILE*/
+@media (min-width: 360px) {
+    .container-cards{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        align-items: center;
 
+    }
+}
 
+@media (min-width: 576px) { 
+    
+    .container-cards{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        align-items: center;
+ }
 
+ /*Tablet*/
+ @media (min-width: 768px) {
+     .container-cards{
+         display: flex;
+         flex: row;
+         align-items: space-around;
+     }
+  }
 
+/*Desktop*/
 
+@media (min-width: 992px){
 
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+
+}
