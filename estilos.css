@@ -186,14 +186,11 @@ main{
 
 /* --------------CARDS---------- */
 
-.card{
-    background-color:#b6f5e8;
-}
-
 
 .container-cards{
     display: flex;
     justify-content: space-around;
+    
    
 
 }
