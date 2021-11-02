@@ -216,6 +216,7 @@ main{
     flex-direction: column;
     
     
+    
 }
 
 .container-button{
@@ -315,10 +316,10 @@ footer{
     list-style: none;
     text-decoration: none;
     font-family: 'Ubuntu', sans-seri;
-    font-size: large; 
+    font-size: medium; 
     display: inline-block;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.50;
     color: gray;
 }
 
@@ -326,16 +327,13 @@ footer{
 list-style: none;
 text-decoration: none;
 font-family: 'Ubuntu', sans-seri;
-font-size: large; 
-font-size: large; 
+font-size: medium;  
 display: inline-block;
 flex-direction: column;
-padding: 1rem;
+padding: 0.50rem;
 color: gray;  
 
 }
-
-
 
 
 .contacto{
