@@ -367,8 +367,8 @@ flex-direction: column;
         flex-direction: column;
         padding-left: 1rem;
         align-items: center;
-
     }
+
 }
 
 @media (min-width: 576px) { 
@@ -380,6 +380,7 @@ flex-direction: column;
         align-items: center;
  }
 
+}
  /*Tablet*/
  @media (min-width: 768px) {
      .container-cards{
@@ -387,6 +388,10 @@ flex-direction: column;
          flex: row;
          align-items: space-around;
      }
+     .container-section-texto{
+         text-align: center;
+     }
+     
   }
 
 /*Desktop*/
@@ -396,10 +401,12 @@ flex-direction: column;
 .container-cards{
     display: flex;
     flex-direction: row;
-    align-items: space-around;
+    align-items: space-around;   
 
 }
 
 .navbar-toggler-icon{
     display: none;
+}
+
 }
