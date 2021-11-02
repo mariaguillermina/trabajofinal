@@ -399,3 +399,7 @@ flex-direction: column;
     align-items: space-around;
 
 }
+
+.navbar-toggler-icon{
+    display: none;
+}
