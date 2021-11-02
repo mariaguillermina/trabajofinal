@@ -17,7 +17,7 @@ body{
 .header-anuncios{
 
     background-color: #aaf1f3;
-    height: 7vh;
+    height: 9vh;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -207,7 +207,6 @@ main{
     background-color: #ccfaec;
     color: gray;
     align-items: center;
-    text-align:center;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -221,6 +220,8 @@ main{
 
 .container-button{
     align-self: center;
+    align-items: center;
+    -
 }
 
 .container-image-card{
