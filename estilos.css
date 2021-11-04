@@ -178,7 +178,6 @@ main{
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     font-size: large;
-    width: 70%;
     line-height: 2rem;
     color: #494a4b;
     
@@ -200,7 +199,9 @@ main{
 
 .container-button button{
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 15rem;
     border: rgb(185, 184, 184) solid;
     border-radius: 1.5rem;
@@ -238,6 +239,7 @@ button{
     cursor: pointer;
     text-align: center;
     position: center; 
+    
 
 }
 
