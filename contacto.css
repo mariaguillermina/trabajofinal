@@ -71,13 +71,16 @@ textarea{
     background-repeat: no-repeat;
     background-position: center;
     height: 15vh;
-    width: 25rem;
+    width: 25vh;
     padding: 1rem;
     margin: 0.50rem;  
    }
    .container-fluid-form{
        display: flex;
        justify-content: center;
+   }
+   h1,h3{
+       font-size: small;
    }
 }
 @media (min-width: 576px){
@@ -98,6 +101,9 @@ textarea{
     .container-fluid-form{
         display: flex;
         justify-content: center;
+    }
+    h1,h3{
+        font-size: small;
     }
 }
 
@@ -122,6 +128,9 @@ textarea{
         display: flex;
         justify-content: center;
     }
+    h1,h3{
+        font-size: medium;
+    }
  }
 
  /* DESKTOP*/
@@ -145,5 +154,8 @@ textarea{
      .container-fluid-form{
         display: flex;
         justify-content: center;
+    }
+    h1,h3{
+        font-size: large;
     }
  }
