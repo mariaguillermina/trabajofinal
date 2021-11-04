@@ -79,9 +79,15 @@ textarea{
        display: flex;
        justify-content: center;
    }
-   h1,h3{
-       font-size: small;
+  
+   h1{
+    font-size: medium;
+    font-weight: 400;
    }
+   h3{
+    font-size: small;
+  }
+  
 }
 @media (min-width: 576px){
     .container-fluid-header-banner{
@@ -102,7 +108,11 @@ textarea{
         display: flex;
         justify-content: center;
     }
-    h1,h3{
+    h1{
+        font-size: medium;
+        font-weight: 400;
+    }
+    h3{
         font-size: small;
     }
 }
@@ -128,9 +138,14 @@ textarea{
         display: flex;
         justify-content: center;
     }
-    h1,h3{
+    h1{
         font-size: medium;
-    }
+        font-weight: 400;
+       }
+    h3{
+        font-size: small;
+         }
+      
  }
 
  /* DESKTOP*/
@@ -155,7 +170,12 @@ textarea{
         display: flex;
         justify-content: center;
     }
-    h1,h3{
+    h1{
         font-size: large;
-    }
+        font-weight: 500;
+       }
+    h3{
+        font-size: medium;
+         }
+     
  }
