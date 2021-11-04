@@ -79,6 +79,8 @@ textarea{
    .container-fluid-form{
        display: flex;
        justify-content: center;
+       flex-direction: column;
+       align-items: center;
    }
   
    h1{
@@ -109,11 +111,13 @@ textarea{
     .container-fluid-form{
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     h1{
         font-size: medium;
-        font-weight: 400;
+        font-weight: 700;
     }
     h3{
         font-size: small;
@@ -141,11 +145,13 @@ textarea{
     .container-fluid-form{
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     h1{
         font-size: medium;
-        font-weight: 400;
+        font-weight: 700;
        }
     h3{
         font-size: small;
@@ -174,19 +180,16 @@ textarea{
      .container-fluid-form{
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
 
-    .container-fluid-form{
-        display: flex;
-        justify-content: center;
-    }
 
     h1{
         font-size: large;
-        font-weight: 500;
+        font-weight: 700;
        }
     h3{
-        font-size: medium;
+        font-size: small;
          }
      
  }
