@@ -75,9 +75,6 @@ textarea{
     padding: 1rem;
     margin: 0.50rem;  
    }
-   .container-fluid-form{
-       display: flex;
-       justify-content: center;
    }
   
    h1{
@@ -104,9 +101,6 @@ textarea{
         margin: 0.50rem;  
     
     }
-    .container-fluid-form{
-        display: flex;
-        justify-content: center;
     }
     h1{
         font-size: medium;
@@ -134,9 +128,6 @@ textarea{
         padding: 2rem;
         margin: 1rem;  
     }
-    .container-fluid-form{
-        display: flex;
-        justify-content: center;
     }
     h1{
         font-size: medium;
