@@ -12,7 +12,7 @@ body{
 }
 
 
-.header-banner{
+.container-fluid-header-banner{
     display: flex;
     justify-content: center;
     size: 10rem;
@@ -58,3 +58,26 @@ textarea{
     height: 10rem;
     width: 60rem;
 }
+
+/*---------------RESPONSIVE-----------------*/
+   /*MOBILE */
+@media (min-width: 360px){
+.header-banner{
+
+}
+}
+@media (min-width: 576px){
+
+}
+
+ /*Tablet*/
+
+ @media (min-width: 768px){
+
+ }
+
+ /* DESKTOP*/
+
+ @media (min-width: 992px){
+
+ }
