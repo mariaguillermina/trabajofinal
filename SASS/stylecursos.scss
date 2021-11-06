@@ -4,9 +4,64 @@
     margin: 0px;
 }
 
+$bg-green:#c2eede;
+$font-size: medium;
+
+
+
+
 body{
-    background-color: rgb(194, 238, 222);
+    background-color: $bg-green;
+    padding: 2rem;
+    margin-top: 1rem;
 }
+
+.curso{
+    font-size: 1.50rem;
+    font-family:'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+    background-color: honeydew;
+
+}  
+
+.container-fluid-inscripcion{
+    h1{
+        font-family:'Ubuntu', sans-serif;
+        display: flex; 
+        color: grey;
+        margin: 1rem;
+        padding: 2rem;
+    }
+}
+.container-cursos-form , .mb-3{
+    display: flex;
+    flex-direction:column;
+    margin: 1rem;
+    padding: 2rem;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.50rem;
+    color: grey;
+}
+
+.form-control{
+    padding: 1rem;
+    color: grey;
+    border: solid;
+    border-radius: 1rem;
+
+}
+.form-control-tarea{
+padding: 2rem;
+color: grey;
+border: solid;
+border-radius: 1rem;
+
+}
+
 
 
 
