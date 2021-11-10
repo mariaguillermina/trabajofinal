@@ -38,12 +38,11 @@ fieldset{
 .submit, .reset, .button{
     border-radius: 0.50rem;
     font-size: medium;
-    font-weight:bold
+    font-weight:bold;
     color: rgb(85, 85, 85);
-    background-color: lightseagreen;
+    background-color: rgb(159, 233, 230);
     padding: 0.50rem;
     margin: 0.50rem;
-
 }
 
 .name, .apellido, .edad, .email, .phone{
@@ -88,10 +87,11 @@ textarea{
     font-weight: 400;
    }
    h3{
-    font-size: small;
+    font-size: large;
   }
   
 }
+
 @media (min-width: 576px){
     .container-fluid-header-banner{
         display: flex;
@@ -185,11 +185,13 @@ textarea{
 
 
     h1{
-        font-size: large;
+        font-size: 2rem;
         font-weight: 700;
+        line-height: 2rem;
        }
     h3{
-        font-size: small;
+        font-size: medium;
+        line-height: 2rem;
          }
      
  }

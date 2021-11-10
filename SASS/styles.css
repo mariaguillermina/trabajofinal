@@ -202,9 +202,7 @@ body {
 * .container-fluid-image-1 img, * .container-fluid-image-2 img {
   padding: 2rem;
   margin: 1rem;
-  border: solid;
   color: grey;
-  background-color: #edf3f3;
 }
 
 * .container-fluid-section-1 button {
@@ -271,17 +269,251 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5rem;
+  padding: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   line-height: 3rem;
   border: solid;
   background-color: #edf3f3;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .container-fluid-section-1 {
   padding: 10rem;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+  background-color: #bbe7d9;
+  padding: 3rem;
+  margin: 3rem;
+  font-family: sans-serif;
+  color: #6d6a6a;
+}
+
+.container-fluid-header-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  size: 10rem;
+  background-image: url("./img/lozaniavarios-banner.jpg");
+  background-color: antiquewhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 40rem;
+  padding: 10rem;
+  margin: 1rem;
+}
+
+fieldset {
+  border: solid gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: #d6d4d4;
+}
+
+.submit, .reset, .button {
+  border-radius: 0.50rem;
+  font-size: medium;
+  font-weight: bold;
+  color: #555555;
+  background-color: #9fe9e6;
+  padding: 0.50rem;
+  margin: 0.50rem;
+}
+
+.name, .apellido, .edad, .email, .phone {
+  padding: 0.50rem;
+  margin: 0.80rem;
+  width: 30rem;
+}
+
+textarea {
+  padding: 2rem;
+  margin: 2rem;
+  height: 10rem;
+  width: 60rem;
+}
+
+/*---------------RESPONSIVE-----------------*/
+/*MOBILE */
+@media (min-width: 360px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 1rem;
+    margin: 0.50rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: large;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 1rem;
+    margin: 0.50rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: small;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: small;
+  }
+}
+
+/* DESKTOP*/
+@media (min-width: 992px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    size: 10rem;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    width: 100vh;
+    padding: 10rem;
+    margin: 1rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+  h3 {
+    font-size: medium;
+    line-height: 2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

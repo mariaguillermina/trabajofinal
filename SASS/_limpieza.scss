@@ -41,10 +41,7 @@
 
     padding: 2rem;
     margin: 1rem;
-    border: solid;
     color: grey;
-     background-color: #edf3f3;
-     
     }
     
 /*----------------------ESTILOS BOTON----------------------*/
@@ -98,6 +95,7 @@ button:hover{
 
 
 /*------------------ DESCRIPTION-------------------------*/
+
 .container-fluid-description{
     display: flex;
     font-family: 'Ubuntu', sans-serif;
@@ -105,12 +103,12 @@ button:hover{
     justify-content: space-around;
     font-size: larger;
     flex-direction: column;
-    padding: 5rem;
+    padding: 1rem;
     align-items: center;
     line-height: 3rem;
     border: solid;
     background-color: #edf3f3;
-    margin: 2rem;
+    margin: 1rem;
 }
 }
 
