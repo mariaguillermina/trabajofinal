@@ -325,7 +325,7 @@ footer{
     font-size: medium; 
     display: inline-block;
     flex-direction: column;
-    padding: 1.50rem;
+    padding: 1rem;
     color: gray;
 }
 
@@ -336,7 +336,7 @@ font-family: 'Ubuntu', sans-seri;
 font-size: medium;  
 display: inline-block;
 flex-direction: column;
-padding: 1.50rem;
+padding: 1rem;
 color: gray;  
 
 }
