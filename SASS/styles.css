@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #c2eede;
+  background-color: #cff1e5;
   padding: 2rem;
   margin-top: 1rem;
 }
@@ -156,4 +156,132 @@ body {
     background-color: honeydew;
   }
 }
-/*# sourceMappingURL=stylecursos.css.map */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  border: solid;
+  color: grey;
+  background-color: #edf3f3;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 2rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+/*# sourceMappingURL=styles.css.map */

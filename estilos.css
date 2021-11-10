@@ -239,8 +239,8 @@ button{
     cursor: pointer;
     text-align: center;
     position: center; 
-    
 
+    
 }
 
 button:hover, button:focus,.btn{
@@ -258,6 +258,10 @@ button:hover{
     color:#027250;
 }
 
+button a{
+    text-decoration: none;
+    color: gray;
+}
 
 /* -------------------- FOOTER--------------*/
 
