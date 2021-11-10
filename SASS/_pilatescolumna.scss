@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+    $bg-green:#cff1e5;
+    $font-size: medium;
+
+    body{
+        background-color: $bg-green;
+        font-size: $font-size;
+    }
+/*------------------------------------------GRID----------------------------*/
+    #grilla{
+        display: grid;
+        grid-template-areas:
+        "images button button"
+        "images description description"
+        "images description description"
+        "images description description"
+        "images description description";
+
+    }
+
+    .container-fluid-section-3{
+        grid-area: images;
+        
+        
+    }
+    .container-fluid-section-2{
+        grid-area: description;
+    }
+
+    .container-fluid-section-1{
+        grid-area: button;
+    }
+
+    /*-------------------IMAGENES-----------------------------*/
+
+    .container-fluid-image-1 img,.container-fluid-image-2 img{
+
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+    }
+    
+/*----------------------ESTILOS BOTON----------------------*/
+
+.container-fluid-section-1 button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: rgb(138, 240, 197);
+    
+    
+}
+
+.container-fluid-section-1{
+    padding: 0rem;
+    margin: 0rem;
+    justify-content:center ;
+}
+
+button a{
+    cursor: pointer;
+    text-align: center;
+    position: center; 
+    text-decoration: none;
+    
+
+}
+
+button:hover, button:focus,.btn{
+    color: #027250;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    color:#027250;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/*------------------ DESCRIPTION-------------------------*/
+
+.container-fluid-description{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    justify-content: space-around;
+    font-size: larger;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    line-height: 3rem;
+    border: solid;
+    background-color: #edf3f3;
+    margin: 1rem;
+}
+}
+
+.container-fluid-section-1{
+    padding: 10rem;
+}
