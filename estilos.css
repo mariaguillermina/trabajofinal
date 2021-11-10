@@ -243,7 +243,7 @@ button{
     
 }
 
-button:hover, button:focus,.btn{
+button:hover, button:focus,.btn, button a {
     color: #027250;
     font-family: 'Ubuntu', sans-serif;
 
@@ -262,6 +262,7 @@ button a{
     text-decoration: none;
     color: gray;
 }
+
 
 /* -------------------- FOOTER--------------*/
 
