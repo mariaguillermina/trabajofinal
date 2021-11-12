@@ -1780,7 +1780,12 @@ textarea {
 /* ------------------- RESPONSIVE--------------------------*/
 /*MOBILE*/
 @media (min-width: 360px) {
-  .container-fluid-section-1 {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1788,7 +1793,6 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 1rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1796,15 +1800,18 @@ textarea {
 }
 
 @media (min-width: 576px) {
-  .container-fluid-section-1 {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-left: 1rem;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1813,31 +1820,38 @@ textarea {
 
 /*Tablet*/
 @media (min-width: 768px) {
-  .container-fluid-section-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
-    -webkit-box-align: space-arou;
-        -ms-flex-align: space-arou;
-            align-items: space-arou;
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
   }
-  .container-fluid-section-2 {
-    text-align: center;
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
 /*Desktop*/
 @media (min-width: 992px) {
-  .container-fluid-section-1 {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1845,9 +1859,27 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: space-around;
-        -ms-flex-align: space-around;
-            align-items: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

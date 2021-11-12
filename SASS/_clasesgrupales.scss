@@ -120,48 +120,88 @@ button:hover{
 
 /*MOBILE*/
 @media (min-width: 360px) {
-    .container-fluid-section-1{
+    #grilla{
+        display: grid;
+        grid-template-areas: 
+        "button button"
+        "images images"
+        "description description";
+    }
+    .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2{
         display: flex;
         flex-direction: column;
-        padding-left: 1rem;
         align-items: center;
     }
-
 }
 
 @media (min-width: 576px) { 
-    
-    .container-fluid-section-1{
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-        align-items: center;
- }
-
+    #grilla{
+        display: grid;
+        grid-template-areas: 
+        "button button"
+        "images images"
+        "description description";
+    }
+    .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2{
+    display: flex;
+    flex: column;
+    align-items: center;
 }
+}
+
  /*Tablet*/
  @media (min-width: 768px) {
-     .container-fluid-section-1{
-         display: flex;
-         flex: row;
-         align-items: space-arou
-     }
-     .container-fluid-section-2{
-         text-align: center;
-         display: flex;
-         flex: row;
-     }
-     
-  }
+    #grilla{
+        display: grid;
+        grid-template-areas: 
+        "button button"
+        "images images"
+        "description description";
+    }
+    .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
 
 /*Desktop*/
 
 @media (min-width: 992px){
+    #grilla{
+        display: grid;
+        grid-template-areas:
+        "images button button"
+        "images description description"
+        "images description description"
+        "images description description"
+        "images description description";
+    }
+    .container-fluid-image-1 img,.container-fluid-image-2 img{
+        padding: 2rem;
+        margin: 1rem;
+        color: grey;
+        }
+ 
+        .container-fluid-section-1 button{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            text-decoration: none;
+            flex-wrap: nowrap;
+            padding: 1.50rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 500;
+            color: grey;
+            font-size: larger;
+            border-radius: 1rem;
+            border: solid;
+            background-color: rgb(138, 240, 197);
+        }
 
-.container-fluid-section-1{
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;  
-
-}
-}
+        .container-fluid-section-1{
+            padding: 0rem;
+            margin: 0rem;
+            justify-content:center ;
+        }  
+    }
