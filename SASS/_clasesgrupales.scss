@@ -123,9 +123,9 @@ button:hover{
     #grilla{
         display: grid;
         grid-template-areas: 
-        "button button"
-        "images images"
-        "description description";
+        "button"
+        "images"
+        "description";
     }
     .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2{
         display: flex;
@@ -138,9 +138,9 @@ button:hover{
     #grilla{
         display: grid;
         grid-template-areas: 
-        "button button"
-        "images images"
-        "description description";
+        "button"
+        "images"
+        "description";
     }
     .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2{
     display: flex;
