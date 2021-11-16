@@ -6,7 +6,6 @@
 body {
   background-color: #bbe7d9;
   padding: 3rem;
-  margin: 3rem;
   font-family: sans-serif;
   color: #6d6a6a;
 }
@@ -240,7 +239,6 @@ textarea {
 body {
   background-color: #cff1e5;
   padding: 2rem;
-  margin-top: 1rem;
 }
 
 .curso {
