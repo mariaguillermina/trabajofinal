@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+    $bg-green:#cff1e5;
+    $font-size: medium;
+}
+
+    body{
+        background-color: $bg-green;
+        font-size: $font-size;
+    }
+
+    /*-------------------------------- GRID-----------------------------------------------------------*/
+    #grilla{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "images description description"
+        "images description description"
+        "footer footer footer";
+    }
+
+    .header{
+        grid-area: header;
+    }
+
+    .container-fluid-bg{
+        grid-area: bg-image;
+    }
+
+    .container-fluid-images{
+        grid-area: images;
+    }
+    .container-fluid-description{
+        grid-area: description;
+    }
+
+    .container-fluid-footer-general{
+        grid-area: footer;
+    }
+
+    
+
+
+/* -------------------- FOOTER--------------*/
+
+
+footer{
+    background-color: #a6dbdd     
+           
+}
+
+
+
+.container-fluid-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    
+}
+
+.container-home{
+    justify-content: initial;
+    flex-direction: column;
+}
+
+
+.container-seguinos, .container-ubicacion, .container-contacto{
+    font-family: 'Ubuntu', sans-seri;
+    font-size: medium;
+    padding: 2rem;
+    display: inline-block;
+    
+  
+}
+
+.container-iconos-redes a, .container-iconos-ubicacion a,.container-iconos-contacto a{
+    color: gray;
+    
+   
+}
+
+
+.container-seguinos li, .container-ubicacion li, .container-contacto li{
+
+    list-style: none;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-seri;
+    font-size: medium;
+    padding: 0.50rem;
+    text-decoration: none;
+    font-size:larger; 
+    color: gray; 
+
+ }
+
+.container-home li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-seri;
+    font-size: medium; 
+    display: inline-block;
+    flex-direction: column;
+    padding: 1rem;
+    color: gray;
+}
+
+.container-home a{
+list-style: none;
+text-decoration: none;
+font-family: 'Ubuntu', sans-seri;
+font-size: medium;  
+display: inline-block;
+flex-direction: column;
+padding: 1rem;
+color: gray;  
+
+}
+
+
+.contacto{
+list-style: none;
+text-decoration: none;
+display: inline-block;
+flex-direction: column;
+padding: 2rem;
+color: gray;
+}
+
+
+h6{
+font-family: 'Ubuntu', sans-serif;
+font-size: medium;
+color: gray;
+padding: 2rem;
+display:inline-table;
+flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

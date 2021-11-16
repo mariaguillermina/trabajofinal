@@ -1,0 +1,3328 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+  background-color: #bbe7d9;
+  padding: 3rem;
+  margin: 3rem;
+  font-family: sans-serif;
+  color: #6d6a6a;
+}
+
+.container-fluid-header-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  size: 10rem;
+  background-image: url("./img/lozaniavarios-banner.jpg");
+  background-color: antiquewhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 40rem;
+  padding: 10rem;
+  margin: 1rem;
+}
+
+fieldset {
+  border: solid gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: #d6d4d4;
+}
+
+.submit, .reset, .button {
+  border-radius: 0.50rem;
+  font-size: medium;
+  font-weight: bold;
+  color: #555555;
+  background-color: #9fe9e6;
+  padding: 0.50rem;
+  margin: 0.50rem;
+}
+
+.name, .apellido, .edad, .email, .phone {
+  padding: 0.50rem;
+  margin: 0.80rem;
+  width: 30rem;
+}
+
+textarea {
+  padding: 2rem;
+  margin: 2rem;
+  height: 10rem;
+  width: 60rem;
+}
+
+/*---------------RESPONSIVE-----------------*/
+/*MOBILE */
+@media (min-width: 360px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 1rem;
+    margin: 0.50rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: large;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 1rem;
+    margin: 0.50rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: small;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+    width: 100vh;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  h1 {
+    font-size: medium;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: small;
+  }
+}
+
+/* DESKTOP*/
+@media (min-width: 992px) {
+  .container-fluid-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    size: 10rem;
+    background-image: url("./img/lozaniavarios-banner.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    width: 100vh;
+    padding: 10rem;
+    margin: 1rem;
+  }
+  .container-fluid-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+  h3 {
+    font-size: medium;
+    line-height: 2rem;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #cff1e5;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.curso {
+  font-size: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+  background-color: honeydew;
+}
+
+.container-fluid-inscripcion h1 {
+  font-family: 'Ubuntu', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: grey;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container-cursos-form, .mb-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+  padding: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.50rem;
+  color: grey;
+}
+
+.form-control {
+  padding: 1rem;
+  color: grey;
+  border: solid;
+  border-radius: 1rem;
+}
+
+.form-control-tarea {
+  padding: 2rem;
+  color: grey;
+  border: solid;
+  border-radius: 1rem;
+}
+
+/* RESPONSIVE*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  .container-fluid-descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-fluid-descripcion .curso {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-fluid-descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-fluid-descripcion .curso {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  .container-fluid-descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: row;
+        -ms-flex: row;
+            flex: row;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
+  }
+  .container-fluid-descripcion .curso {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: space-around;
+            flex-direction: space-around;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  .curso {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+    background-color: honeydew;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+/*-------------------------------- GRID-----------------------------------------------------------*/
+#grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "images description description" "images description description" "footer footer footer";
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.container-fluid-bg {
+  grid-area: bg-image;
+}
+
+.container-fluid-images {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+.container-fluid-description {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+.container-fluid-footer-general {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+/* -------------------- FOOTER--------------*/
+footer {
+  background-color: #a6dbdd;
+}
+
+.container-fluid-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container-home {
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-seguinos, .container-ubicacion, .container-contacto {
+  font-family: 'Ubuntu', sans-seri;
+  font-size: medium;
+  padding: 2rem;
+  display: inline-block;
+}
+
+.container-iconos-redes a, .container-iconos-ubicacion a, .container-iconos-contacto a {
+  color: gray;
+}
+
+.container-seguinos li, .container-ubicacion li, .container-contacto li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-seri;
+  font-size: medium;
+  padding: 0.50rem;
+  text-decoration: none;
+  font-size: larger;
+  color: gray;
+}
+
+.container-home li {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-seri;
+  font-size: medium;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  color: gray;
+}
+
+.container-home a {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-seri;
+  font-size: medium;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  color: gray;
+}
+
+.contacto {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  color: gray;
+}
+
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: medium;
+  color: gray;
+  padding: 2rem;
+  display: inline-table;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /*------------------------------------------GRID----------------------------*/
+  /*-------------------IMAGENES-----------------------------*/
+  /*----------------------ESTILOS BOTON----------------------*/
+  /*------------------ DESCRIPTION-------------------------*/
+}
+
+* body {
+  background-color: #cff1e5;
+  font-size: medium;
+}
+
+* #grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+}
+
+* .container-fluid-section-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: images;
+}
+
+* .container-fluid-section-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+* .container-fluid-section-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: button;
+}
+
+* .container-fluid-image-1 img, * .container-fluid-image-2 img {
+  padding: 2rem;
+  margin: 1rem;
+  color: grey;
+}
+
+* .container-fluid-section-1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 1.50rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: grey;
+  font-size: larger;
+  border-radius: 1rem;
+  border: solid;
+  background-color: #8af0c5;
+}
+
+* .container-fluid-section-1 {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* button a {
+  cursor: pointer;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+* button:hover, * button:focus, * .btn {
+  color: #027250;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  color: #027250;
+}
+
+* button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* .container-fluid-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 3rem;
+  border: solid;
+  background-color: #edf3f3;
+  margin: 1rem;
+}
+
+.container-fluid-section-1 {
+  padding: 10rem;
+}
+
+/* ------------------- RESPONSIVE--------------------------*/
+/*MOBILE*/
+@media (min-width: 360px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button" "images" "description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "button button" "images images" "description description";
+  }
+  .container-fluid-section-1, .container-fluid-section-2, .container-fluid-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "images button button" "images description description" "images description description" "images description description" "images description description";
+  }
+  .container-fluid-image-1 img, .container-fluid-image-2 img {
+    padding: 2rem;
+    margin: 1rem;
+    color: grey;
+  }
+  .container-fluid-section-1 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-decoration: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 1.50rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: grey;
+    font-size: larger;
+    border-radius: 1rem;
+    border: solid;
+    background-color: #8af0c5;
+  }
+  .container-fluid-section-1 {
+    padding: 0rem;
+    margin: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
